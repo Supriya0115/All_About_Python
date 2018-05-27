@@ -17,7 +17,6 @@ Month = 0
 Revenue = []
 Month_1 = []
 Revenue_Change = []
-Item = []
 
 # Read csv and create file object
 
@@ -28,7 +27,6 @@ with open(cvs_path, newline = '') as BFile:
     for row in Budget_Data:
         Total = Total + int(row[1])
         Month = Month + 1
-        Item = row
         Revenue.append(int(row[1]))
         Month_1.append(row[0])
         
@@ -62,18 +60,18 @@ with open(cvs_path, newline = '') as BFile:
         BankSummary.write("Financial Analysis\n")
         BankSummary.write("-"*30 + "\n")
         BankSummary.write("Total Months: " + str(Month) + "\n")
-        BankSummary.write("Average Revenue Change: " + str(Average_Revenue_Change) + "\n")
-        BankSummary.write("Greatest Increase in Revenue: " + Month_Max_Revenue_Change + " (" + str(Max_Revenue_Change) + ")" + "\n")
-        BankSummary.write("Greatest Decrease in Revenue: " + Month_Min_Revenue_Change + " (" + str(Min_Revenue_Change) + ")" + "\n")
+        BankSummary.write("Average Revenue Change: " + "$" + str(Average_Revenue_Change) + "\n")
+        BankSummary.write("Greatest Increase in Revenue: " + Month_Max_Revenue_Change + " (" + "$" + str(Max_Revenue_Change) + ")" + "\n")
+        BankSummary.write("Greatest Decrease in Revenue: " + Month_Min_Revenue_Change + " (" + "$" + str(Min_Revenue_Change) + ")" + "\n")
 
         # Print the output to the terminal
 
         print("Financial Analysis")
         print("-"*30)
         print("Total Months: " + str(Month))
-        print("Average Revenue Change: " + str(Average_Revenue_Change))
-        print("Greatest Increase in Revenue: " + Month_Max_Revenue_Change + " (" + str(Max_Revenue_Change) + ")")
-        print("Greatest Decrease in Revenue: " + Month_Min_Revenue_Change + " (" + str(Min_Revenue_Change) + ")")
+        print("Average Revenue Change: " + "$" + str(Average_Revenue_Change))
+        print("Greatest Increase in Revenue: " + Month_Max_Revenue_Change + " (" + "$" + str(Max_Revenue_Change) + ")")
+        print("Greatest Decrease in Revenue: " + Month_Min_Revenue_Change + " (" + "$" + str(Min_Revenue_Change) + ")")
 
 
 
