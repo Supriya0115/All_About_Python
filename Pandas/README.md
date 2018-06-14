@@ -4,9 +4,19 @@
 
 * Our peak age demographic falls between 20-24 (~47) with secondary groups falling between 25-29 (~13%) and 15-19 (~17.5%). The total purchase value by age also aligns to the peak age demographic.
 
-* The top 5 spenders are - Lisosia; Idastidru ;Chamjask; Iral; Saistyphos.
+* The top 5 spenders are - 
+    Lisosia; 
+    Idastidru ;
+    Chamjask; 
+    Iral; 
+    Saistyphos.
 
-* The top 5 items by popularity (i.e. purchase count) are  - Oathbreaker, Last Hope of the Breaking Storm; Fiery Glass Crusader; Extraction, Quickblade Of Trembling Hands; Nirvana	; Pursuit, Cudgel of Necromancy
+* The top 5 items by popularity (i.e. purchase count) are  - 
+    Oathbreaker, Last Hope of the Breaking Storm; 
+    Fiery Glass Crusader; 
+    Extraction, Quickblade Of Trembling Hands; 
+    Nirvana	; 
+    Pursuit, Cudgel of Necromancy
 -----
 
 ### Note
