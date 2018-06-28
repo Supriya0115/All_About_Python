@@ -3,6 +3,15 @@ Problem Statement:
     
 I have to program a Python script to perform sentiment analysis of the Twitter activity of news outlets - BBC, CBS, CNN, Fox, and New York times - and present findings visually.
 
+Observations:
+
+###It's quite surprising that on 6/27/2018 amongst the 5 news outlets that we tracked the tweets for, Fox has the highest compound score! I was intrigued to run through the tweets from Fox and the tweets contained words with positive tone! Examples -"We believe that families should be together."; "We believe in free speech on college campuses, not censorship.  And rightly so, the graph tweet polarity vs tweets ago have majority of the tweets positively above the neutral zero line. While testing my program a couple of days ago, Fox wasn't rated positive on the plots. The timing coincides with Supreme Court upholding the travel ban (which Fox News may be in favor of)It emphasizes how important timing is to derive observations, and at the same time - how important it is to have historical data and background knowledge to draw conclusions on the observations.
+
+###Equally surprising is the compound score for NYT which was highest on a negative scale. The same analogy as above applies here as well - the timing coincides with Supreme Court upholding the travel ban (which NYT News has strongly disapproved). Examples -  "My father, Fred Korematsu, would have been upset that the court overturned"; " The House overwhelmingly rejected a major immigration overhaul". However, the neutral zone on tweet polarity vs tweets ago was dominated by NYT - and that aligns to my perception that it's one of the very neutral news medium.
+
+###I wasn’t too surprised with the sentiment analysis of CNN, CBS, and BBC though. BBC was negatively scored, and CBS and CNN were positively scored.
+
+
 Step 1 : I import the libraries and packages (a.k.a tools of trade!) for my analysis.
 
 
